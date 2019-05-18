@@ -1,0 +1,12 @@
+// 命令行运行labelimg
+
+
+1、使用cd 命令进入刚刚下载解压的labelimg文件夹，例如：cd C:\Users\admin\Desktop\labelImg-master
+
+2、然后安装pyqt，安装命令：conda install pyqt=5，时间稍微有点长，如下图所示，安装完成后可能会出现：DEBUG menuinst_win32: __init__(185): Menu: name: 'Anaconda$ $',prefix:……这个可以不用管
+
+3、安装完成后，执行命令：pyrcc5 -o resources.py resources.qrc，这个执行完成是没有任何返回结果的
+
+4、最后，输入命令：python labelImg.py，可以看到labelimg打开了。
+
+
